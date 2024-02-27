@@ -97,7 +97,7 @@ python train.py
 ```
 python app.py
 ```
-![image]("static/images/Train.png")
+![image]("https://github.com/Jeswin-J/CPGRAMS-ChatBot/blob/sanjay/static/images/Train.png")
 
 ## Implementation Cost
 This approach of Implementation is cost effective which almost cost **zero rupees** to integrated into CPGRAMS portal.
