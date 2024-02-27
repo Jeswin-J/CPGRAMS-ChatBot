@@ -9,26 +9,21 @@ def index():
     return render_template('chat.html')
 
 
-@app.route("/get", methods=["GET", "POST"])
+@app.route("/get_response", methods=["POST"])
 def chat():
-    msg = request.form["msg"]
-    input_stmt = msg
-    print("$$$$$$$$$$$", get_chat_response(input_stmt))
-    response = {
-        "chat_response": get_chat_response(input_stmt)
-    }
-    return get_chat_response(input_stmt)
+    if request.method == "POST":
+        input_stmt = ""
 
+        if request.headers["Content-Type"] == "application/json":
+            input_stmt = request.json["chat_msg"]
+        elif request.headers["Content-Type"] == "application/x-www-form-urlencoded":
+            input_stmt = request.form["chat_msg"]
 
-#
-# @app.route("/get_response", methods=["GET", "POST"])
-# def get_chat_response():
-#     msg = request.form["msg"]
-#     input_stmt = msg
-#     response = {
-#         "chat_response" : get_chat_response(input_stmt)
-#     }
-#     return response
+        response = {
+            "chat_msg": input_stmt,
+            "chat_response": get_chat_response(input_stmt)
+        }
+        return jsonify(response)
 
 
 if __name__ == '__main__':

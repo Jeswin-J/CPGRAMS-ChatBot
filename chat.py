@@ -11,7 +11,6 @@ def get_chat_response(input_stmt):
     with open('intents.json', 'r') as f:
         intents = json.load(f)
 
-    print(intents)
 
     FILE = "data.pth"
     data = torch.load(FILE)
@@ -48,11 +47,8 @@ def get_chat_response(input_stmt):
         probs = torch.softmax(output, dim=1)
         prob = probs[0][predicted.item()]
 
-        print(prob.item())
-
         if prob.item() > 0.5:
             for intent in intents['intents']:
-                print(tag)
                 if tag == intent['tag']:
                     return random.choice(intent['responses'])
 
