@@ -13,7 +13,22 @@ def index():
 def chat():
     msg = request.form["msg"]
     input_stmt = msg
+    print("$$$$$$$$$$$", get_chat_response(input_stmt))
+    response = {
+        "chat_response": get_chat_response(input_stmt)
+    }
     return get_chat_response(input_stmt)
+
+
+#
+# @app.route("/get_response", methods=["GET", "POST"])
+# def get_chat_response():
+#     msg = request.form["msg"]
+#     input_stmt = msg
+#     response = {
+#         "chat_response" : get_chat_response(input_stmt)
+#     }
+#     return response
 
 
 if __name__ == '__main__':
