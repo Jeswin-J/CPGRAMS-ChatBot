@@ -15,9 +15,11 @@ def chat():
         input_stmt = ""
 
         if request.headers["Content-Type"] == "application/json":
-            input_stmt = request.json["chat_msg"]
-        elif request.headers["Content-Type"] == "application/x-www-form-urlencoded":
-            input_stmt = request.form["chat_msg"]
+            input_stmt = request.json["msg"]
+            print("2nd if block")
+        elif request.headers["Content-Type"] == "application/x-www-form-urlencoded; charset=UTF-8":
+            input_stmt = request.form["msg"]
+            print("elseif block")
 
         response = {
             "chat_msg": input_stmt,

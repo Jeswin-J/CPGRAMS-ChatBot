@@ -115,7 +115,8 @@
           "That's helpful",
           "Appreciate your assistance",
           "bye",
-          "see you later"
+          "see you later",
+          "good bye"
         ],
         "responses": [
           "You're welcome! If you have any more questions, feel free to ask.",
@@ -160,7 +161,39 @@
           "Hi there! How can I help you?",
           "Hey! What can I do for you today?"
         ]
-      }
-    ]
-  }
+      },
+    
+    {
+      "tag": "options",
+      "patterns": [
+        "How can you help me?",
+        "who are you?",
+        "What can you do?", 
+        "What are your abilities?", 
+        "How can you help?", 
+        "What services do you offer?"
+      ],
+      "responses": [
+        "I can provide information, answer questions, or assist with various tasks. Feel free to ask anything!"
+      ]
+    },
+    {
+      "tag": "public_grievance",
+      "patterns": [
+        "How can I report a problem to the authorities?",
+        "I need to raise a concern with the government",
+        "Where do I go if I have a complaint?",
+        "What's the process for filing a public grievance?",
+        "Is there a way to address community issues?",
+        "Who can I contact to address a public concern?",
+        "I want to report a problem in my neighborhood",
+        "What should I do if I encounter a civic issue?"
+      ],
+      "responses": [
+        "Kindly elaborate your issue",
+        "Sorry, but can you provide me with more information"
+      ]
+    }
+  ]
+}
   

@@ -67,7 +67,7 @@
 							msg: rawText,	
 						},
 						type: "POST",
-						url: "/get_response",
+						url: "http://127.0.0.1:5000/get_response",
 					}).done(function(data) {
     				var chatResponse = data.chat_response;
 						var botHtml = '<div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="{{ url_for('static', filename='images/bot.png')}}" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">' + chatResponse + '<span class="msg_time">' + str_time + '</span></div></div>';

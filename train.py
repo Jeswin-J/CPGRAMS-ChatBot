@@ -14,6 +14,7 @@ all_words = []
 tags = []
 xy = []
 
+#xy contains tag with pattern from the json file as list of tuples
 for intent in intents['intents']:
     tag = intent['tag']
     tags.append(tag)
@@ -23,9 +24,8 @@ for intent in intents['intents']:
         xy.append((w, tag))
 
 ignore_words = ['?', '!', '.', ',']
-all_words = [stem(w) for w in all_words if w not in ignore_words]
-all_words = sorted(set(all_words))
-
+all_words = [stem(w) for w in all_words if w not in ignore_words]#igoring special characters
+all_words = sorted(set(all_words))#removing duplicate elements
 tags = sorted(set(tags))
 
 x_train = []
@@ -35,7 +35,7 @@ for (pattern_sentence, tag) in xy:
     bag = bag_of_words(pattern_sentence, all_words)
     x_train.append(bag)
 
-    label = tags.index(tag)
+    label = tags.index(tag)#give index of a tag from list of tags
     y_train.append(label)  # CrossEntropyLoss
 
 x_train = np.array(x_train)
