@@ -6,11 +6,9 @@ from nltk_utils import *
 
 
 def get_chat_response(input_stmt):
-    print(input_stmt)
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     with open('intents.json', 'r') as f:
         intents = json.load(f)
-
 
     FILE = "data.pth"
     data = torch.load(FILE)
