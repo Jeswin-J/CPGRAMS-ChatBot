@@ -94,17 +94,17 @@ Run the project open command prompt
 ```
 python train.py
 ```
+![image](https://i.imgur.com/k2w0vt6.png)
 ```
 python app.py
 ```
-![image]("https://github.com/Jeswin-J/CPGRAMS-ChatBot/blob/sanjay/static/images/Train.png")
 
 ## Implementation Cost
-This approach of Implementation is cost effective which almost cost **zero rupees** to integrated into CPGRAMS portal.
+This approach of Implementation is cost-effective which almost cost **zero rupees** to integrated into CPGRAMS portal. Also, the bot can learn continuously from the user inputs. So no manpower cost required. 
 ## Team 
 
-Jeswin Joesph  
-Sanjay   
-Johith Raj   
-Rajkumar   
-Jeswin Rymonnd
+Jeswin Joesph [Linkdin](https://www.linkedin.com/in/jeswinjosephj/)  
+Sanjay [Linkdin](https://www.linkedin.com/in/sanjayk1415/)  
+Johith Raj [Linkdin](https://www.linkedin.com/in/johithraj/)  
+Rajkumar  [Linkdin]()  
+Jeswin Rymonnd [Linkdin]()
