@@ -1,23 +1,28 @@
 # CPGRAMS-ChatBot
 **problem statement**: Develop an AI/ML-driven Chatbot which is   Ministry Specific to help the Citizens to resolve their common queries related to filing a Grievance in the CPGRAMS portal (https://pgportal.gov.in) and expedite smooth submission of grievances.
 
-We have develop AI based ChatBot for CPGRAMS portal which provides interface for user to resolve their queries related to filling grievances form.The major outcomes are **Faster Resolution of Grievances**,**Data Insights and Analytics**,**Reduction in Manual Workload**. 
+We have develop AI based ChatBot for CPGRAMS portal serves as a virtual assistant, facilitating easy communication and answering questions about filling out grievance forms for users. By utilizing machine learning methods and **natural language processing (NLP)**, our ChatBot improves user experience by expediting the grievance filing process and guaranteeing timely response. 
 
 Advantage using AI integrate ChatBot:
 * Efficiency
 * Continueously Learning 
-* Cost effective
+* Cost effectiveness 
 
 ## Requirement
 **Hardware Requirement**  
-* CPU: Multi-core
-* RAM: Atleast 6 GB 
+* CPU: Intel Core i5 or equivalent AMD processor recommended for optimal performance.
+* RAM: Minimum: 4 GB RAM and Recommended: 8 GB or more for better performance, especially for handling multiple concurrent user interactions. 
+* Minimum: **100 GB of available storage space** for OS, development tools, and application files.
 * Internet Connectivity  
 
 **Software Requirement**
-* OS: Window(8/10/11),IOS,Linux
-* Python
-* Machine Learning Libraries (pytorch,NLP)
+* OS: 
+  * Windows (7 or later)
+  * macOS (10.11 or later)
+  * Linux distributions (Ubuntu)
+* Programming Language and Libraries:  
+Python  
+* Libraries:Flask, torch, nltk, numpy.
 
 ## TECH STACK
 * Flask FrameWork
@@ -25,7 +30,7 @@ Advantage using AI integrate ChatBot:
 * NLP Libraries
 * Python 
 
-## API Reference by sanjsy
+## API Reference 
 
 #### Get all items
 
@@ -106,5 +111,5 @@ This approach of Implementation is cost-effective which almost cost **zero rupee
 Jeswin Joesph [Linkdin](https://www.linkedin.com/in/jeswinjosephj/)  
 Sanjay [Linkdin](https://www.linkedin.com/in/sanjayk1415/)  
 Johith Raj [Linkdin](https://www.linkedin.com/in/johithraj/)  
-Rajkumar  [Linkdin]()  
-Jeswin Rymonnd [Linkdin]()
+Rajkumar  [Linkdin](https://www.linkedin.com/in/raj-kumar-9a6b91249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+Jeswin Rymonnd [Linkdin](https://www.linkedin.com/in/jeswin-rhymond/)
