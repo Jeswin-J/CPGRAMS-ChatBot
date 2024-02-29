@@ -35,22 +35,14 @@ Python
 #### Get all items
 
 ```http
-  GET /api/items
+  POST /get_response
 ```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
+| `input_msg` | `string` | **Required**. The Query from the user is passed as input |
 
-#### Get item
 
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
 
 ## Approach
  **Define the Scope and Requirements for project:**
