@@ -106,5 +106,5 @@ This approach of Implementation is cost-effective which almost cost **zero rupee
 Jeswin Joesph [Linkdin](https://www.linkedin.com/in/jeswinjosephj/)  
 Sanjay [Linkdin](https://www.linkedin.com/in/sanjayk1415/)  
 Johith Raj [Linkdin](https://www.linkedin.com/in/johithraj/)  
-Rajkumar  [Linkdin]()  
-Jeswin Rymonnd [Linkdin]()
+Rajkumar  [Linkdin](https://www.linkedin.com/in/raj-kumar-9a6b91249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)  
+Jeswin Rymonnd [Linkdin](https://www.linkedin.com/in/jeswin-rhymond/)
